@@ -2,10 +2,11 @@
   "name": "mapas-ods-front",
   "version": "0.0.0",
 "scripts": {
+  "ng": "ng",
+  "start": "ng serve",
   "build": "ng build --configuration production --base-href=/mapas-ODS-front/",
   "ghpages": "angular-cli-ghpages --dir=dist/mapas-ODS-front",
   "deploy": "npm run build && npm run ghpages",
-  "start": "ng serve",
   "watch": "ng build --watch --configuration development",
   "test": "ng test"
 },
