@@ -1,5 +1,5 @@
 export const BASE_URLS = {
-  URL_POCKETBASE: "http://168.197.66.102:9292",
+  URL_POCKETBASE: "https://3c0efa486ddd.ngrok-free.app",
   URL_CONTA_SANEPAR: "/api/collections/conta_sanepar/records",
   URL_EVENTOS: "/api/collections/evento/records",
   URL_INFRAESTRUTURA: "/api/collections/infraestrutura/records",

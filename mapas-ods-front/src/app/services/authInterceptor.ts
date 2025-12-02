@@ -10,6 +10,12 @@ export class AuthInterceptor implements HttpInterceptor {
 
    intercept(req: HttpRequest<any>, next: HttpHandler): Observable<HttpEvent<any>> {
       const token = this.authService.getToken();
+
+
+      let headers: any = {
+         'ngrok-skip-browser-warning': 'true'
+      };
+
       if (token) {
          const cloned = req.clone({
             setHeaders: { Authorization: `Bearer ${token}` }
